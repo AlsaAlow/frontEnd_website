@@ -81,9 +81,6 @@ export const NavBar = () => {
             </ul>
 
             <ul className='flex items-center gap-3'>
-                <li className='text-black/60'>
-                    silvi@platzi.com
-                </li>
                 <li>
                     <NavLink to='/my-orders' className={({isActive}) => isActive ? activeStyle : undefined}>My orders</NavLink>
                 </li>
