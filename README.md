@@ -21,10 +21,6 @@ In this project I wanted to make some changes to practice some logic issues and 
 - Routes for the shopping cart and for the detail of the selected product.
 - I used a JSON file containing the products, instead of the Platzi API. This allowed me to see a more complete detail of each product with more information.
 
-## 🖱️ Visit the app here: 
-
-https://shopi-app.netlify.app/
-
 ## 📁 Project:
 
 - React
@@ -48,7 +44,7 @@ https://shopi-app.netlify.app/
 ## ⚙️ Installation
 
 * Clone the latest code on the master branch
-    * ```git clone https://github.com/silviajcn/Ecommerce-tailwind.git```
+    * ```git clone https://github.com/AlsaAlow/frontEnd_website.git```
 * Install dependencies
     * ```npm install```
 * Run the web server!
