@@ -1,54 +1,22 @@
 {
-    "products": [
-      {
-        "id": "zRBijf9EHrDQ",
-        "title": "IKAAMA - Anillo de luz",
-        "price": 50,
-        "category": "Accessories",
-        "description": "Aro de luz regulable: el aro de luz de 10.2 pulgadas cuenta con 3 modos de color de luz: blanco, amarillo cálido, blanco cálido. La temperatura de color de la luz alcanza los 2,200 K-12,000 K. Cada modo tiene 11 niveles de brillo ajustables, 33 opciones en total. Este aro de luz satisfará todas tus necesidades en diferentes escenas.",
-        "images": [
-          "https://res.cloudinary.com/silviajcn/image/upload/v1642785148/Productos%20Amazonas/utuszzonwett1uteqlgz.jpg",
-          "https://res.cloudinary.com/silviajcn/image/upload/v1642785158/Productos%20Amazonas/jurzyeffldfb2njwkbrv.jpg",
-          "https://res.cloudinary.com/silviajcn/image/upload/v1642785166/Productos%20Amazonas/ksdj7adhw18hpkxbzhc2.jpg"
-        ],
-        "banner": "https://res.cloudinary.com/silviajcn/image/upload/v1642785175/Productos%20Amazonas/drkxt0jcihgqjik7kmwp.jpg",
-        "brand": "IKAAMA",
-        "rate": 2,
-        "quantity": 29
-      },
-      {
-        "id": "k6uzh2fjdmn7",
-        "title": "Lenovo Laptop Chromebook",
-        "price": 800,
-        "category": "Laptops",
-        "description": "Portátil de alto rendimiento: el Chromebook S330 está equipado con un procesador MediaTek MTK8173C, Chrome OS, 4 GB LPDDR3, 64 GB eMMC 5.1 y mucho más -Diseño elegante y elegante: elegante, elegante y seguro, el Lenovo Chromebook S330 es de menos de una pulgada de grosor y 3.3 lbs de luz con una pantalla FHD de 14 pulgadas. Perfecto para la informática diaria y multimedia, en o sin conexión -Procesamiento potente: perfecto para todas tus necesidades de informática diarias, el Lenovo Chromebook S330 ofrece una serie de características de rendimiento. Disfruta de un potente procesamiento para las tareas diarias, memoria LPDDR3 para multitarea, almacenamiento eMMC para arranques rápidos, carga rápida de software y almacenamiento adicional de 100 GB en la nube a través de Google Drive -Construido para conectarlo: el soporte completo de I/O viene estándar en el ordenador portátil con USB-C, micro SD y USB 3.0 para una conectividad sin esfuerzo. Además, este Chromebook también cuenta con un potente WiFi AC 2 x 2 con Bluetooth 4.1, una cámara web de 720p y dos sistemas de altavoces de 2 W para una colaboración sin esfuerzo, todos soportados a través de un conjunto de aplicaciones colaborativas a través de Chrome OS -Fácil de usar: el Lenovo Chromebook S330 es fácil de usar, ofrece protección contra virus integrada y sigue funcionando con batería de larga duración. Además, no se necesita configuración, solo una cuenta de Google para que tus cosas permanezcan contigo a través del almacenamiento en la nube de tus correos electrónicos, mapas, doctores, fotos y más",
-        "images": [
-          "https://res.cloudinary.com/silviajcn/image/upload/v1642282411/SPRING-3/productos/laptop5/laptop5.1_bet4br.jpg",
-          "https://res.cloudinary.com/silviajcn/image/upload/v1642282413/SPRING-3/productos/laptop5/laptop5.2_p2dfco.jpg",
-          "https://res.cloudinary.com/silviajcn/image/upload/v1642282416/SPRING-3/productos/laptop5/laptop5.3_hmnoaf.jpg"
-        ],
-        "banner": "https://res.cloudinary.com/silviajcn/image/upload/v1642282419/SPRING-3/productos/laptop5/laptop5.4_xsacd8.jpg",
-        "brand": "Lenovo",
-        "rate": 3,
-        "quantity": 11
-      },
-      {
-        "id": "vxujaszda4c3",
-        "title": "Tablet Android",
-        "price": 230,
-        "category": "Tablets",
-        "description": "Rendimiento increíble: tableta Android FEONAL con sistema de procesamiento de alta velocidad de 9.0 Pie, chip A7 Quad-Core, 1.3 GHz hace que la tablet tenga una excelente capacidad de respuesta y puede abrir varios videos y aplicaciones sin problemas. Esta tableta es el modelo más popular para 2020, también un regalo perfecto para familiares y amigosMás grande que más grande: la pantalla grande de 10.1 pulgadas con resolución HD de 1280 x 800 aporta cada detalle de película a tus ojos. Almacenamiento interno de 32 GB y 2 GB de RAM con soporte para expansión de hasta 128 GB. Suficiente para usar para que puedas utilizar fácilmente más aplicaciones y almacenar más películas, libros electrónicos, canciones, fotos y otros archivos.Conectividad estable: la tablet portátil soporta tarjetas de teléfono celular enchufables y se puede utilizar fácilmente en entornos sin redes inalámbricas. Compatible con llamadas telefónicas WiFi 2.4G y 3G, la conectividad estable puede ser bien compatible con tu red inalámbrica doméstica. Tarjeta SIM no incluida. Para soporte de red de tarjeta SIM, consulta la descripción del producto]Batería de gran capacidad: batería integrada de 6000 mAh para una vida útil duradera. Una carga completa puede proporcionarte largas horas de lectura, navegar, ver películas y jugar juegos. Con un cuerpo ligero, te hace disfrutar de una tableta portátil en cualquier lugar y en cualquier momento. Carga a través del puerto micro USB.Certificación Google GMS: la tablet FEONAL está certificada por Google GMS. Puede utilizar de forma segura varias funciones de Google, como búsqueda, asistente de voz, Netflix, YouTube, G-mail, Skype, GPS, etc. Esta tableta puede bloquear anuncios no verificados, además de descargar un gran número de aplicaciones de Google Market de forma gratuita.",
-        "images": [
-          "https://res.cloudinary.com/silviajcn/image/upload/v1642383470/Productos%20Amazonas/pnfeemxgw1gn6zwomjrw.jpg",
-          "https://res.cloudinary.com/silviajcn/image/upload/v1642383474/Productos%20Amazonas/dn70glmdlp0a3kebhytu.jpg",
-          "https://res.cloudinary.com/silviajcn/image/upload/v1642383480/Productos%20Amazonas/vz3354fkelfmungtyqse.jpg"
-        ],
-        "banner": "https://res.cloudinary.com/silviajcn/image/upload/v1642383484/Productos%20Amazonas/xq5poljsmb7b7kszumim.jpg",
-        "brand": "FEONAL",
-        "rate": 2,
-        "quantity": 38
-      },    
-      {
+  "products": [
+    {
+      "id": "vxujaszda4c3",
+      "title": "Tablet Android",
+      "price": 230,
+      "category": "Tablets",
+      "description": "Rendimiento increíble: tableta Android FEONAL con sistema de procesamiento de alta velocidad de 9.0 Pie, chip A7 Quad-Core, 1.3 GHz hace que la tablet tenga una excelente capacidad de respuesta y puede abrir varios videos y aplicaciones sin problemas. Esta tableta es el modelo más popular para 2020, también un regalo perfecto para familiares y amigosMás grande que más grande: la pantalla grande de 10.1 pulgadas con resolución HD de 1280 x 800 aporta cada detalle de película a tus ojos. Almacenamiento interno de 32 GB y 2 GB de RAM con soporte para expansión de hasta 128 GB. Suficiente para usar para que puedas utilizar fácilmente más aplicaciones y almacenar más películas, libros electrónicos, canciones, fotos y otros archivos.Conectividad estable: la tablet portátil soporta tarjetas de teléfono celular enchufables y se puede utilizar fácilmente en entornos sin redes inalámbricas. Compatible con llamadas telefónicas WiFi 2.4G y 3G, la conectividad estable puede ser bien compatible con tu red inalámbrica doméstica. Tarjeta SIM no incluida. Para soporte de red de tarjeta SIM, consulta la descripción del producto]Batería de gran capacidad: batería integrada de 6000 mAh para una vida útil duradera. Una carga completa puede proporcionarte largas horas de lectura, navegar, ver películas y jugar juegos. Con un cuerpo ligero, te hace disfrutar de una tableta portátil en cualquier lugar y en cualquier momento. Carga a través del puerto micro USB.Certificación Google GMS: la tablet FEONAL está certificada por Google GMS. Puede utilizar de forma segura varias funciones de Google, como búsqueda, asistente de voz, Netflix, YouTube, G-mail, Skype, GPS, etc. Esta tableta puede bloquear anuncios no verificados, además de descargar un gran número de aplicaciones de Google Market de forma gratuita.",
+      "images": [
+        "https://res.cloudinary.com/silviajcn/image/upload/v1642383470/Productos%20Amazonas/pnfeemxgw1gn6zwomjrw.jpg",
+        "https://res.cloudinary.com/silviajcn/image/upload/v1642383474/Productos%20Amazonas/dn70glmdlp0a3kebhytu.jpg",
+        "https://res.cloudinary.com/silviajcn/image/upload/v1642383480/Productos%20Amazonas/vz3354fkelfmungtyqse.jpg"
+      ],
+      "banner": "https://res.cloudinary.com/silviajcn/image/upload/v1642383484/Productos%20Amazonas/xq5poljsmb7b7kszumim.jpg",
+      "brand": "FEONAL",
+      "rate": 2,
+      "quantity": 38
+    },
+    {
       "id": "aax678943vc1",
       "title": "GoPro HERO9 Black",
       "price": 320,
@@ -143,6 +111,37 @@
       "brand": "Samsung",
       "rate": 5,
       "quantity": 13
-    }  
-    ]
-  }
+    },
+    {
+      "id": "2ru7kuf1l5x",
+      "title": "test",
+      "price": 1,
+      "description": "test",
+      "category": "Laptops",
+      "images": [
+        "https://res.cloudinary.com/silviajcn/image/upload/v1642785175/Productos%20Amazonas/drkxt0jcihgqjik7kmwp.jpg"
+      ],
+      "banner": "https://res.cloudinary.com/silviajcn/image/upload/v1642785175/Productos%20Amazonas/drkxt0jcihgqjik7kmwp.jpg",
+      "brand": "lenovo",
+      "rate": 3,
+      "quantity": 13
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@example.com"
+    },
+    {
+      "id": "2",
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": "3",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com"
+    }
+  ]
+}
