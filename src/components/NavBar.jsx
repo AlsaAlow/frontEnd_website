@@ -1,23 +1,32 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
-import { Context } from '../context';
+import { Context } from '../context'; // Pastikan path import ini sesuai struktur folder kamu
 import { ShoppingCartIcon } from '@heroicons/react/24/solid';
 
 const activeStyle = "underline underline-offset-4";
 
 export const NavBar = () => {
-
     const context = useContext(Context);
+    const navigate = useNavigate(); // 1. Hook navigasi
+
+    // 2. Cek apakah ada user yang login (ambil dari localStorage)
+    const user = JSON.parse(localStorage.getItem('user_token'));
+
+    // 3. Fungsi Logout User
+    const handleLogout = () => {
+        localStorage.removeItem('user_token'); // Hapus token
+        navigate('/login'); // Kembali ke halaman login
+    };
 
     return (
-        <nav className='flex justify-between items-center fixed z-10 top-0 w-full py-5 px-8 text-sm font-light fondo'>
+        <nav className='flex justify-between items-center fixed z-10 top-0 w-full py-5 px-8 text-sm font-light bg-white border-b border-gray-200'>
             <ul className='flex items-center gap-3'>
                 <li className='font-semibold text-lg'>
-                    <NavLink to='/' onClick={() => context.setSearchByCategory()}>Shopi</NavLink>
+                    <NavLink to='/home' onClick={() => context.setSearchByCategory()}>Shopi</NavLink>
                 </li>
                 <li>
                     <NavLink
-                        to='/'
+                        to='/home'
                         onClick={() => context.setSearchByCategory()}
                         className={({ isActive }) => isActive ? activeStyle : undefined}
                     >
@@ -81,27 +90,45 @@ export const NavBar = () => {
             </ul>
 
             <ul className='flex items-center gap-3'>
-                <li className='text-black/60'>
-                    silvi@platzi.com
-                </li>
+                {/* Tampilkan email user jika sedang login (Optional) */}
+                {user && (
+                    <li className='text-black/60 hidden md:block'>
+                        {user.email}
+                    </li>
+                )}
+
                 <li>
                     <NavLink to='/my-orders' className={({isActive}) => isActive ? activeStyle : undefined}>My orders</NavLink>
                 </li>
-                {/* <li>
-                    <NavLink to='/account' className={({isActive}) => isActive ? activeStyle : undefined}>Account</NavLink>
-                </li>
+
+                {/* 4. Logika Tombol Login / Logout */}
                 <li>
-                    <NavLink to='/sign-in' className={({isActive}) => isActive ? activeStyle : undefined}>Sign in</NavLink>
-                </li> */}
+                    {user ? (
+                        <button 
+                            onClick={handleLogout}
+                            className='text-red-500 hover:text-red-700 font-semibold'
+                        >
+                            Logout
+                        </button>
+                    ) : (
+                        <NavLink 
+                            to='/login' 
+                            className={({isActive}) => isActive ? activeStyle : "font-semibold"}
+                        >
+                            Login
+                        </NavLink>
+                    )}
+                </li>
+
                 <li className='flex'>
                     <NavLink to='/cart-shopping' className={({isActive}) => isActive ? activeStyle : undefined}>
                         <ShoppingCartIcon className='h-5 w-5 text-black'></ShoppingCartIcon>
                     </NavLink>
                     {
                         context.productsCount === 0 ?
-                            <div className='flex justify-center items-center text-xs font-semibold'>{context.productsCount}</div>
+                            <div className='flex justify-center items-center text-xs font-semibold ml-1'>{context.productsCount}</div>
                             :
-                            <div className='flex justify-center items-center bg-green-100 w-5 h-5 rounded-full text-xs font-semibold'>{context.productsCount}</div>
+                            <div className='flex justify-center items-center bg-green-100 w-5 h-5 rounded-full text-xs font-semibold ml-1'>{context.productsCount}</div>
                     }
                 </li>
             </ul>
