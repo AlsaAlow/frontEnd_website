@@ -1,11 +1,63 @@
 {
+  "admins": [
+    {
+      "id": "1",
+      "name": "Super Admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "superadmin",
+      "avatar": "https://ui-avatars.com/api/?name=Super+Admin&background=0f172a&color=fff"
+    },
+    {
+      "id": "2",
+      "name": "Staff Gudang",
+      "email": "staff@gmail.com",
+      "password": "staff123",
+      "role": "editor",
+      "avatar": "https://ui-avatars.com/api/?name=Staff+Gudang&background=random"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "user@example.com",
+      "password": "user123",
+      "address": "Jl. Contoh No. 1",
+      "phone": "08111111111"
+    },
+    {
+      "id": "2",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "user123",
+      "address": "Jl. Mawar Melati",
+      "phone": "08222222222"
+    },
+    {
+      "id": "3",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "password": "user123",
+      "address": "Jl. Anggrek No. 5",
+      "phone": "08333333333"
+    },
+    {
+      "id": "4",
+      "name": "Budi Santoso",
+      "email": "budi@gmail.com",
+      "password": "user123",
+      "address": "Jl. Sudirman Jakarta",
+      "phone": "08123456789"
+    }
+  ],
   "products": [
     {
       "id": "vxujaszda4c3",
       "title": "Tablet Android",
       "price": 230,
       "category": "Tablets",
-      "description": "Rendimiento increíble: tableta Android FEONAL con sistema de procesamiento de alta velocidad de 9.0 Pie, chip A7 Quad-Core, 1.3 GHz hace que la tablet tenga una excelente capacidad de respuesta y puede abrir varios videos y aplicaciones sin problemas. Esta tableta es el modelo más popular para 2020, también un regalo perfecto para familiares y amigosMás grande que más grande: la pantalla grande de 10.1 pulgadas con resolución HD de 1280 x 800 aporta cada detalle de película a tus ojos. Almacenamiento interno de 32 GB y 2 GB de RAM con soporte para expansión de hasta 128 GB. Suficiente para usar para que puedas utilizar fácilmente más aplicaciones y almacenar más películas, libros electrónicos, canciones, fotos y otros archivos.Conectividad estable: la tablet portátil soporta tarjetas de teléfono celular enchufables y se puede utilizar fácilmente en entornos sin redes inalámbricas. Compatible con llamadas telefónicas WiFi 2.4G y 3G, la conectividad estable puede ser bien compatible con tu red inalámbrica doméstica. Tarjeta SIM no incluida. Para soporte de red de tarjeta SIM, consulta la descripción del producto]Batería de gran capacidad: batería integrada de 6000 mAh para una vida útil duradera. Una carga completa puede proporcionarte largas horas de lectura, navegar, ver películas y jugar juegos. Con un cuerpo ligero, te hace disfrutar de una tableta portátil en cualquier lugar y en cualquier momento. Carga a través del puerto micro USB.Certificación Google GMS: la tablet FEONAL está certificada por Google GMS. Puede utilizar de forma segura varias funciones de Google, como búsqueda, asistente de voz, Netflix, YouTube, G-mail, Skype, GPS, etc. Esta tableta puede bloquear anuncios no verificados, además de descargar un gran número de aplicaciones de Google Market de forma gratuita.",
+      "description": "Rendimiento increíble: tableta Android FEONAL con sistema de procesamiento de alta velocidad de 9.0 Pie...",
       "images": [
         "https://res.cloudinary.com/silviajcn/image/upload/v1642383470/Productos%20Amazonas/pnfeemxgw1gn6zwomjrw.jpg",
         "https://res.cloudinary.com/silviajcn/image/upload/v1642383474/Productos%20Amazonas/dn70glmdlp0a3kebhytu.jpg",
@@ -21,7 +73,7 @@
       "title": "GoPro HERO9 Black",
       "price": 320,
       "category": "Cameras",
-      "description": "Vídeo 5K: graba video impresionante con resolución de hasta 5K, perfecto para mantener detalles serios incluso cuando haces zoom. Con un nuevo sensor de 23.6 MP que es una potencia absoluta, HERO9 Black ofrece nitidez de imagen realista, movimiento fluido y nivelación del horizonte en la cámara que siempre impresiona. Foto de 20 MP con superfoto: captura fotos nítidas y de calidad profesional con claridad de 20 MP. Y con SuperPhoto, HERO9 Black puede elegir automáticamente todo el mejor procesamiento de imagen para ti, por lo que es muy fácil clavar la foto. Pantalla frontal + pantalla táctil trasera: una nueva pantalla táctil trasera más grande con zoom táctil en HERO9 Black debe sentirse familiar al instante y una deslumbrante pantalla frontal hace que sea fácil enmarcar y control intuitivo de la cámara. Potente batería: una duración de la batería 30% más larga está aquí gracias a una batería más grande de 1720 mAh. Esto te permite disparar más sin tener que cambiar las baterías y empaca suficiente jugo para alimentar tu cámara a través del frío. HYPERSMOOTH 3.0: experimenta la máxima suavidad con nuestra estabilización de video más avanzada de la historia. HyperSmooth 3.0 permite nivelar el horizonte en la cámara y aumentar en todos los ajustes.",
+      "description": "Vídeo 5K: graba video impresionante con resolución de hasta 5K...",
       "images": [
         "https://res.cloudinary.com/silviajcn/image/upload/v1683660611/Productos%20Amazonas/a1_nngj5g.jpg",
         "https://res.cloudinary.com/silviajcn/image/upload/v1683660611/Productos%20Amazonas/a2_vbmukf.jpg",
@@ -37,7 +89,7 @@
       "title": "Auriculares inalámbricos | ANC+ENC",
       "price": 60,
       "category": "Headphones",
-      "description": "Pantalla LED de alimentación y reproducción de 30 horas: la pantalla LED digital dual fuera de la funda es para mostrar el nivel de potencia para la funda de carga y los auriculares. Al cargar la funda, la luz LED comenzará a parpadear de 1 a 100. Cuando pongas los auriculares en la funda, entonces los auriculares comenzarán a cargarse. La funda de carga totalmente cargada puede proporcionar 4-5 veces la carga completa para ambos auriculares, cada auricular puede durar 4-5 horas con una sola carga. Por lo tanto, puedes disfrutar de 30 horas de tiempo de música en total a través de su uso. 【Reducción de ruido doble ANC+ENC】Cancelación activa de ruido (cancelación activa de ruido híbrida de 3 capas): 1. El micrófono orientado al exterior detecta sonidos externos y contador con igual antiruido para reducir el ruido ambiental hasta más de 30 dB. 2. El micrófono orientado hacia adentro escucha el canal auditivo dentro del canal auditivo para recoger sonidos internos y producir antiruido de nuevo para cancelar dos veces el ruido izquierdo. 3. Los tapones para los oídos evitan que el 90% de ruido vaya al canal auditivo. Cancelación de ruido ambiental: reducción de ruido de llamada inteligente. Audio estéreo HD y control táctil. Diseño ergonómico y ligero: la estructura de los auriculares M48 es el estudio del canal auditivo de miles de personas antes del diseño. Viene con tres tamaños diferentes de almohadillas para las orejas, nuestras M48 son adecuadas para la mayoría de los canales auditivos de las personas. Estos auriculares inalámbricos Bluetooth son pequeños y ligeros, son cómodos de llevar. La cámara de sonido crea un espacio hermético con tu canal auditivo que se aísla del ruido ambiental exterior y hace que los auriculares ofrezcan sonido estéreo que son perfectos para deportes, dormir, música, etc.",
+      "description": "Pantalla LED de alimentación y reproducción de 30 horas...",
       "images": [
         "https://res.cloudinary.com/silviajcn/image/upload/v1683658716/Productos%20Amazonas/au1_j5zlvb.jpg",
         "https://res.cloudinary.com/silviajcn/image/upload/v1683658716/Productos%20Amazonas/au3_mjd8dh.jpg",
@@ -53,7 +105,7 @@
       "title": "Auriculares BMANI-VEAT00L",
       "price": 40,
       "category": "Headphones",
-      "description": "Funda de carga con pantallas LED duales: los auriculares inalámbricos con pantalla LED hacen que sea evidente mostrar la energía de la batería de la funda y los auriculares. La potencia restante en porcentaje en la pantalla se muestra a la izquierda de los auriculares Bluetooth. El lado derecho está asignando a un proceso de carga de cada brote, hay indicadores de consumo de energía separados por 4 rejillas en total, cada rejilla representa un 25% de potencia de capullo. Durante la carga, la luz indicadora LED parpadeará. Calidad de sonido Bluetooth y estéreo. Control de un botón y emparejamiento automático. Diseñado para deportes.",
+      "description": "Funda de carga con pantallas LED duales...",
       "images": [
         "https://res.cloudinary.com/silviajcn/image/upload/v1683658515/Productos%20Amazonas/au1_g4bpki.jpg",
         "https://res.cloudinary.com/silviajcn/image/upload/v1683658515/Productos%20Amazonas/au2_fxcecs.jpg",
@@ -69,7 +121,7 @@
       "title": "Microsoft Surface Pro 8",
       "price": 600,
       "category": "Tablets",
-      "description": "La potencia de un portátil con la flexibilidad de una tablet, y todos los ángulos intermedios, con pantalla táctil de 13 pulgadas, soporte icónico integrado y teclado desmontable...",
+      "description": "La potencia de un portátil con la flexibilidad de una tablet...",
       "images": [
         "https://res.cloudinary.com/silviajcn/image/upload/v1683667637/Productos%20Amazonas/a1_vjhady.jpg",
         "https://res.cloudinary.com/silviajcn/image/upload/v1683667637/Productos%20Amazonas/a3_acylwy.jpg",
@@ -114,10 +166,10 @@
     },
     {
       "id": "2ru7kuf1l5x",
-      "title": "test",
+      "title": "Laptop Lenovo Test",
       "price": 1,
-      "description": "test",
       "category": "Laptops",
+      "description": "Laptop untuk testing sistem.",
       "images": [
         "https://res.cloudinary.com/silviajcn/image/upload/v1642785175/Productos%20Amazonas/drkxt0jcihgqjik7kmwp.jpg"
       ],
@@ -127,21 +179,16 @@
       "quantity": 13
     }
   ],
-  "users": [
+  "orders": [
     {
-      "id": "1",
-      "name": "Admin User",
-      "email": "admin@example.com"
-    },
-    {
-      "id": "2",
-      "name": "John Doe",
-      "email": "john.doe@example.com"
-    },
-    {
-      "id": "3",
-      "name": "Jane Smith",
-      "email": "jane.smith@example.com"
+      "id": "ord001",
+      "userId": "1",
+      "products": [
+        { "productId": "vxujaszda4c3", "quantity": 1 }
+      ],
+      "totalPrice": 230,
+      "status": "pending",
+      "date": "2023-11-27"
     }
   ]
 }
